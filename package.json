@@ -1,0 +1,38 @@
+{
+  "name": "khalifa-bot",
+  "version": "1.0.0",
+  "description": "whatsapp bot",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-e-dev/khalifa-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "khalifa",
+    "mia-khalifa",
+    "whatsapp"
+  ],
+  "author": "al-e-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al-e-dev/khalifa-bot/issues"
+  },
+  "homepage": "https://github.com/al-e-dev/khalifa-bot#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pino": "^7.0.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
