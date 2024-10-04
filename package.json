@@ -32,7 +32,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.5",
+    "baileys": "github:al-e-dev/Baileys",
     "qrcode-terminal": "^0.12.0"
   }
 }
